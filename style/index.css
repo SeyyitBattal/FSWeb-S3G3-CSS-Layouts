@@ -1,1 +1,117 @@
 /* CSS stillerinizi buraya girin */
+
+/* {
+    box-sizing: border-box;
+    border: 1px solid tomato;
+    background: lightblue;
+  } */
+body {
+  background: lightgrey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 4rem;
+}
+.headerHeader {
+  margin-left: 50px;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.upButton {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 30px;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.upButton:hover {
+  color: gray;
+  background-color: white;
+}
+
+.myPicture {
+  max-width: 15%;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  float: left;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  border-style: solid;
+  border-color: black;
+}
+
+.introText {
+  margin-left: 30rem;
+  margin-right: 20rem;
+  margin-top: 3rem;
+  padding-left: 5px;
+  border-color: rgb(37, 36, 46);
+  border-style: ridge;
+  border-width: thick;
+}
+
+.tetText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.projects2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.projectsPicturesALL {
+  margin-top: 6rem;
+}
+
+.EveryPicture {
+  max-width: 20rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+.contact {
+  background-color: gray;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 9rem;
+  padding-bottom: 0.5rem;
+}
+
+#myButton {
+  border-radius: 13px;
+  padding: 1.5rem;
+  font-weight: bold;
+}
+#myButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.accounts {
+  width: 30px;
+  height: 30px;
+  margin: 1rem;
+}
