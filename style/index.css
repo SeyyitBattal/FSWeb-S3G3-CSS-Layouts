@@ -72,10 +72,11 @@ h1 {
 }
 
 .introButton {
-  background-color: white;
   margin-left: 1rem;
-  text-align: center;
-  background-color: black;
+  background-color: rgb(129, 177, 142);
+  color: black;
+  font-weight: bold;
+  padding: 10px;
   text-decoration: none;
   border-radius: 1px;
 }
