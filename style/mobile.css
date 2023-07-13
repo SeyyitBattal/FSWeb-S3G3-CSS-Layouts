@@ -1,0 +1,15 @@
+@media (max-width: 500px) {
+  body {
+    background: green;
+    text-align: center;
+  }
+  h1 {
+    margin-left: -4rem;
+  }
+  .intro {
+    margin-top: 10rem;
+  }
+  .EveryPicture {
+    margin: 1rem;
+  }
+}

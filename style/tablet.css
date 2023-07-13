@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+  body {
+    background: red;
+    text-align: center;
+  }
+
+  .introText {
+    margin-top: 20rem;
+    margin-left: 1rem;
+    text-align: center;
+    min-width: 450px;
+  }
+
+  .EveryPicture {
+    margin: 1rem;
+  }
+}
