@@ -1,6 +1,6 @@
 @media (max-width: 800px) {
   body {
-    background: red;
+    background: rgb(81, 67, 67);
     text-align: center;
   }
 
@@ -13,5 +13,18 @@
 
   .EveryPicture {
     margin: 1rem;
+  }
+
+  #desktop {
+    background-color: rgb(81, 67, 67);
+    color: rgb(81, 67, 67);
+  }
+  #tablet {
+    background-color: rgb(81, 67, 67);
+    color: black;
+  }
+  #mobile {
+    background-color: rgb(81, 67, 67);
+    color: rgb(81, 67, 67);
   }
 }
